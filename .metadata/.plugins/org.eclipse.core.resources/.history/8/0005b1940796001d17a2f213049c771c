@@ -1,0 +1,22 @@
+package com.example.demo.repository.impl;
+
+import java.util.List;
+
+import com.example.demo.model.User;
+import com.example.demo.repository.IUserRepository;
+
+public class UserRepository implements IUserRepository{
+
+	@Override
+	public User insertUserCreate(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> getAllUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
